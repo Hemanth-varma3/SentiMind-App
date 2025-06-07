@@ -1,5 +1,5 @@
 # =================================================================================
-# SentiMind: Final, Lightweight, and Deployable Version
+# SentiMind:Lightweight
 # ==============================================================================
 
 import streamlit as st
