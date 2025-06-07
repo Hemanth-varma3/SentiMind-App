@@ -1,4 +1,7 @@
-# SentiMind: Lightweight
+# =================================================================================
+# SentiMind: Final, Lightweight, and Deployable Version
+# ==============================================================================
+
 import streamlit as st
 from transformers import pipeline
 
