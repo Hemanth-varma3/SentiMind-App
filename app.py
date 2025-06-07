@@ -7,8 +7,8 @@ from transformers import pipeline
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="SentiMind 💡",
-    page_icon="💡",
+    page_title="SentiMind 🤖",
+    page_icon="🤖",
     layout="centered"
 )
 
@@ -30,14 +30,14 @@ def load_sentiment_model():
 sentiment_classifier = load_sentiment_model()
 
 # --- App Interface ---
-st.title("SentiMind 💡")
-st.subheader("A lightweight and fast sentiment analysis tool.")
+st.title("SentiMind 🤖")
+st.subheader("A precision accuracy instrument to assist you in determining the emotional level of any text.")
 st.divider()
 
 user_input = st.text_area(
     "Enter text to analyze:",
     height=150,
-    placeholder="This is a fantastic and fast application!"
+    placeholder="Example: I am thrilled to learn about deploying AI models!"
 )
 
 if st.button("Analyze Sentiment"):
